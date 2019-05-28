@@ -22,10 +22,11 @@ header img {
 }
 
 header nav {
-  display: grid;
-  grid-template: 100% / 1fr 3fr 1fr;
-  justify-items: center;
+  display: flex;
+  /* grid-template: 100% / 1fr 3fr 1fr; */
+  justify-content: space-between;
   align-items: center;
+  padding: 0 19px;
 }
 
 .back_button {
@@ -91,8 +92,9 @@ ul.more_information li {
 ul.more_information li a {
   text-decoration: none;
   color: #001325;
-  display: grid;
-  grid-template: 1fr / 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
+  /* grid-template: 1fr / 1fr 1fr; */
 }
 
 .link_marker {
